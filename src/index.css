@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Noto+Sans&family=PT+Serif:wght@700&family=Poppins:ital@1&family=Roboto+Serif:opsz@8..144&display=swap');
+
+
+:root {
+  background: linear-gradient(rgb(0, 15, 14),rgb(0, 15, 5),rgb(16, 21, 1),rgb(7, 0, 7));
+  font-family: 'PT Serif', serif;
+font-family: 'Roboto Serif', serif;
+ color: aliceblue;
+}
+
+
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+

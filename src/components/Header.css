@@ -1,0 +1,47 @@
+.header-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.featurestitle{
+text-align: justify;
+display: flex;
+width: 80%;
+flex-wrap: wrap;
+justify-content: center;
+}
+h1{
+color: rgb(231, 154, 243);
+font-size: 2rem;
+}
+h3{
+    color:rgb(128, 255, 0) ;
+}
+.featurestitle ul{
+    display: flex;
+    color: rgb(97, 223, 246);
+    list-style-type: square;
+    font-size: 1rem;  
+   gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.featurestitle ul>li{
+    opacity: 0;
+    transition: opacity 0.5s;
+    
+        animation: fadeIn 1s ease-in-out forwards;
+   
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
